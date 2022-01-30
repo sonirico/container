@@ -11,7 +11,7 @@ func main() {
 		1, 2, 3, 4, 5, 6, 7, 8, 9, 0,
 	}
 
-	arr = filter.SliceFilter(arr, func(x int) bool {
+	arr = filter.Slice(arr, func(x int) bool {
 		return x%3 == 0
 	})
 
